@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(to right, #ffe0ec, #fceff9);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .sakhi-heading {
+    color: #e91e63;
+    font-weight: 600;
+  }
+  
+  .sakhi-card {
+    border: none;
+    border-radius: 15px;
+    background: white;
+    transition: 0.3s;
+  }
+  
+  .sakhi-card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 12px 30px rgba(233, 30, 99, 0.1);
+  }
+
+  .mood-btn {
+    font-size: 1.5rem;
+    background-color: #fce4ec;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    transition: transform 0.2s ease;
+  }
+  
+  .mood-btn:hover {
+    transform: scale(1.2);
+    background-color: #f8bbd0;
+  }
+  
+  .btn-pink {
+    background-color: #f8bbd0;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+  }
+  .btn-pink:hover {
+    background-color: #ec407a;
+  }
+  
+  .comfort-note-output {
+    padding: 12px;
+    background-color: #fff0f5;
+    border-radius: 10px;
+    min-height: 60px;
+    line-height: 1.6;
+    color: #6d4c41;
+  }
+  
